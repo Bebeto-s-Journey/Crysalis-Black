@@ -1,0 +1,17 @@
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\bin\Debug\net8.0\CrisalisModel.exe
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\bin\Debug\net8.0\CrisalisModel.deps.json
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\bin\Debug\net8.0\CrisalisModel.runtimeconfig.json
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\bin\Debug\net8.0\CrisalisModel.dll
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\bin\Debug\net8.0\CrisalisModel.pdb
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.AssemblyInfoInputs.cache
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.AssemblyInfo.cs
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.csproj.CoreCompileInputs.cache
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.sourcelink.json
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.dll
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\refint\CrisalisModel.dll
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.pdb
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.genruntimeconfig.cache
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\ref\CrisalisModel.dll
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\bin\Debug\net8.0\FirstCrisalisFile.cr
+D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\bin\Debug\net8.0\secondCrFile.cr
