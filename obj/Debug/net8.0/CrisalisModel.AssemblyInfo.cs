@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrisalisModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecfdec15109d243f990165f5a358fc473b6a6c64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd607193b25c48e89b2bd47d75c0bea7809113a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrisalisModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrisalisModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

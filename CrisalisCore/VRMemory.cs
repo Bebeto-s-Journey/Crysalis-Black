@@ -35,7 +35,7 @@
         }
         public static int ReadValueFromMemory(string key)
         {
-            if (VRMemory.ExistsInMemory(key) == false)
+            if (ExistsInMemory(key) == false)
             {
                 throw new Exception($"Variable '{key}' not found in memory.");
             }
@@ -43,17 +43,17 @@
             Console.WriteLine($"Read from memory: {key} = {value}");
             return value;
         }
-        public static void SaveRewriteValueToMemory(string key, int value)
+        public static void SaveRewriteValueToMemory(Assignment assignment)
         {
-            if (VRMemory.ExistsInMemory(key))
+            if (ExistsInMemory(assignment.VariableName))
             {
-                VRMemory.RewriteInMemory(new Assignment(key, value));
-                Console.WriteLine($"Rewrite to memory: adreasse {key} =  value : {value}");
+                RewriteInMemory(new Assignment(assignment.VariableName, assignment.Value));
+                Console.WriteLine($"Rewrite to memory: adreasse {assignment.VariableName} =  value : {assignment.Value}");
             }
             else
             {
-                VRMemory.AddToMemory(new Assignment(key, value));
-                Console.WriteLine($"Saved to memory: {key} = {value}");
+                AddToMemory(new Assignment(assignment.VariableName, assignment.Value));
+                Console.WriteLine($"Saved to memory: {assignment.VariableName} = {assignment.Value}");
             }
         }
 

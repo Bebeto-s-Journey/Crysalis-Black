@@ -7,7 +7,6 @@ D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug
 D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.AssemblyInfoInputs.cache
 D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.AssemblyInfo.cs
 D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.csproj.CoreCompileInputs.cache
-D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.sourcelink.json
 D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.dll
 D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\refint\CrisalisModel.dll
 D:\Abdoulaye\MyOwnLanguage\Chrysalis_Black\C# BasedModel\CrisalisModel\obj\Debug\net8.0\CrisalisModel.pdb

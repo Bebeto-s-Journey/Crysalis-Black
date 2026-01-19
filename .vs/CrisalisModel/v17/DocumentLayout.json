@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\crisaliscore\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:crisaliscore\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\secondcrfile.cr||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:secondcrfile.cr||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\crisaliscore\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:crisaliscore\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\crprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:crprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\crisaliscore\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:crisaliscore\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\crisaliscore\\vrmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +27,16 @@
       "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:crisaliscore\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\crisaliscore\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:crisaliscore\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\crisaliscore\\badeparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:crisaliscore\\badeparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\crisalismodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:crisalismodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|d:\\abdoulaye\\myownlanguage\\chrysalis_black\\c# basedmodel\\crisalismodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCD2902-037D-4983-8C4F-F82E9BDE4E98}|CrisalisModel.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 262,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "secondCrFile.cr",
               "DocumentMoniker": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\secondCrFile.cr",
               "RelativeDocumentMoniker": "secondCrFile.cr",
               "ToolTip": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\secondCrFile.cr",
               "RelativeToolTip": "secondCrFile.cr",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-01-17T14:12:21.358Z",
               "IsPinned": true,
@@ -60,13 +64,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VRMemory.cs",
               "DocumentMoniker": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\VRMemory.cs",
               "RelativeDocumentMoniker": "CrisalisCore\\VRMemory.cs",
               "ToolTip": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\VRMemory.cs",
               "RelativeToolTip": "CrisalisCore\\VRMemory.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T22:52:20.642Z",
               "IsPinned": true,
@@ -74,27 +78,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Parser.cs",
               "DocumentMoniker": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\Parser.cs",
               "RelativeDocumentMoniker": "CrisalisCore\\Parser.cs",
               "ToolTip": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\Parser.cs",
               "RelativeToolTip": "CrisalisCore\\Parser.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAwHIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwDYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T13:37:17.653Z",
+              "WhenOpened": "2026-01-18T22:35:19.098Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Lexer.cs",
               "DocumentMoniker": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\Lexer.cs",
               "RelativeDocumentMoniker": "CrisalisCore\\Lexer.cs",
               "ToolTip": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\Lexer.cs",
               "RelativeToolTip": "CrisalisCore\\Lexer.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAEsAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T13:36:02.81Z",
               "IsPinned": true,
@@ -102,16 +106,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Token.cs",
               "DocumentMoniker": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\Token.cs",
               "RelativeDocumentMoniker": "CrisalisCore\\Token.cs",
               "ToolTip": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\Token.cs",
               "RelativeToolTip": "CrisalisCore\\Token.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T13:34:39.489Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BadeParser.cs",
+              "DocumentMoniker": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\BadeParser.cs",
+              "RelativeDocumentMoniker": "CrisalisCore\\BadeParser.cs",
+              "ToolTip": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrisalisCore\\BadeParser.cs",
+              "RelativeToolTip": "CrisalisCore\\BadeParser.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwHwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T22:35:32.928Z",
               "EditorCaption": ""
             }
           ]
@@ -128,7 +145,7 @@
               "RelativeDocumentMoniker": "CrProgram.cs",
               "ToolTip": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\CrProgram.cs",
               "RelativeToolTip": "CrProgram.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T10:41:24.286Z",
               "IsPinned": true,
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Abdoulaye\\MyOwnLanguage\\Chrysalis_Black\\C# BasedModel\\CrisalisModel\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
