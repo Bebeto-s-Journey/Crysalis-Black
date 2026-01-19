@@ -2,7 +2,7 @@
 {
     internal enum TokenType
     {
-        Identifier, Number, Assign, Plus, Minus, Time, Divide, Coma, OpenP, CloseP, EOF
+        Identifier, Number, Assign, Plus, Minus, Time, Divide, Coma, OpenP, CloseP, EOF, PrintStmt
     }
 
     internal class Token

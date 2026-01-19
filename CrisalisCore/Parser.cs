@@ -46,6 +46,26 @@ namespace CrisalisModel.CrisalisCore
 
        
 
+        public void ParserStatment()
+        {
+            while (_position < _tokens.Count)
+            {
+                if (Peek().Type == TokenType.Identifier)
+                {
+                    var assignment = ParseAssignment();
+                    VRMemory.SaveRewriteValueToMemory(assignment);
+                }
+                else if (Peek().Type == TokenType.PrintStmt)
+                {
+                    ParsePrintStmt();
+                }else
+                {
+                    throw new Exception($"UnexpectedToken {Peek()} at position {_position}");
+                }
+
+            }
+        }
+
         // Rule: assignment -> Identifier '=' (Number | Identifier)
         public Assignment ParseAssignment() // I should maybe use an interface for different assignment types or for difrent token 
         {
@@ -60,7 +80,6 @@ namespace CrisalisModel.CrisalisCore
             int value = ParseExpresion();
 
             // Execute the code by saving it to memory
-            VRMemory.SaveRewriteValueToMemory(varName, value);
             Console.WriteLine($"Assigned {value} to {varName}");
             var assignment = new Assignment(varName, value);
 
@@ -72,17 +91,23 @@ namespace CrisalisModel.CrisalisCore
         {
             // Look for the next tokenType
             int firstValue = ParsePrimary();
-            int value = 0;
 
-           while (_position < _tokens.Count() && IsOperator(Peek().Type))  // Recursive Descendant this is called
-           {
+            while (_position < _tokens.Count() && IsOperator(Peek().Type))  // Recursive Descendant this is called
+            {
                 Token operatorToken = Match(Peek().Type); // Match either + or -
                 int nextNumberValue = ParsePrimary();
 
                 // Check the operator
                 firstValue = Operate(operatorToken, firstValue, nextNumberValue);
-           }
+            }
             return firstValue;
+        }
+        public void ParsePrintStmt()
+        {
+            Match(TokenType.PrintStmt);
+            int result = ParseExpresion();
+            Console.WriteLine($">> {result}");
+
         }
         #region Token structure helpers 
         private int Operate(Token operatorToken, int firstValue, int nextNumberValue)
@@ -113,7 +138,7 @@ namespace CrisalisModel.CrisalisCore
             if (type == TokenType.Divide)
                 return true;
 
-            throw new Exception($"Not an operator. Found instead {type}");
+            return false;
         }
         public int ParsePrimary()
         {
@@ -130,6 +155,7 @@ namespace CrisalisModel.CrisalisCore
             }
                 throw new Exception($"Expected Identifier or Number but found {Peek().Type}");
         }
+
         #endregion
         //Helper for complex expresion : check the token type
     }

@@ -10,7 +10,11 @@ namespace CrisalisModel.CrisalisCore
     {
         private readonly string _input;  // Sit on the Heap 
         private int _position; // Sit on the Stack
+        private Dictionary<string, TokenType> _keyWord = new()
+        {
+            { "Wanema", TokenType.PrintStmt }
 
+        };
         public Lexer(string input)
         {
             _input = input;
@@ -31,7 +35,14 @@ namespace CrisalisModel.CrisalisCore
                 }
                 else if (char.IsLetter(current))
                 {
-                    tokens.Add(new Token { Type = TokenType.Identifier, Value = ReadWhile(char.IsLetter) });
+                    string letter = ReadWhile(char.IsLetter);
+                    if (_keyWord.TryGetValue(letter, out TokenType type))
+                    {
+                        tokens.Add(new Token { Type = type, Value = letter });
+                        continue;
+                    }
+                    else 
+                        tokens.Add(new Token { Type = TokenType.Identifier, Value =  letter});
                     continue;
                 }
                 else if (char.IsDigit(current))
@@ -69,14 +80,14 @@ namespace CrisalisModel.CrisalisCore
                             _position++;
                             break;
                         case ',':
-                            tokens.Add(new Token { Type = TokenType.Coma, Value = ","});
+                            tokens.Add(new Token { Type = TokenType.Coma, Value = "," });
                             _position++;
                             break;
                         case '(':
                             tokens.Add(new Token { Type = TokenType.OpenP, Value = "(" });
                             _position++;
                             break;
-                        case ')': 
+                        case ')':
                             tokens.Add(new Token { Type = TokenType.CloseP, Value = ")" });
                             _position++;
                             break;
