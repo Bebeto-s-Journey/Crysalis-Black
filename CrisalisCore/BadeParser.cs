@@ -122,7 +122,7 @@ namespace CrisalisModel.CrisalisCore.bad
             int value = ParseExpresion();
 
             // Execute the code by saving it to memory
-            VRMemory.SaveRewriteValueToMemory(varName, value);
+           // VRMemory.SaveRewriteValueToMemory(varName, value);
             Console.WriteLine($"Assigned {value} to {varName}");
             var assignment = new Assignment(varName, value);
 

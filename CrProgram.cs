@@ -4,22 +4,19 @@ namespace CrisalisModel.CrisalisCore.program
 
     internal class Programe()
     {
-        public void InitMemory()
-        {
-        }
         public static void Main()
         {
             string fileName = "secondCrFile.cr";
-            string[] sourceCode;
+            string sourceCode; 
             Console.WriteLine("Starting the Crisalis Interpreter...");
             try
             {
                 if (File.Exists(fileName))
                 {
                     Console.WriteLine($"Reading file: {fileName}"); // If the file is inside a folder , you need to provide the relative or absolute path
-                    sourceCode = File.ReadAllLines(fileName); // The programe source code not will not work if ther isan empty line at the beginin of the source code
+                    sourceCode = File.ReadAllText(fileName); // The programe source code not will not work if ther isan empty line at the beginin of the source code
 
-                    Console.WriteLine($"Number of line: {sourceCode.Length}");
+                    Console.WriteLine($"Number of charachter: {sourceCode.Length}");
                     ProcessCode(sourceCode);
                 }
             }
@@ -28,16 +25,17 @@ namespace CrisalisModel.CrisalisCore.program
                 Console.WriteLine($"Error reading file: {ex.Message}");
             }
         }
-        private static void ProcessCode(string[] myLine)
+        private static void ProcessCode(string file)
         {
-            foreach(string line in myLine)
-            {
-                Lexer lexer = new Lexer(line); // Out of bounds exception here
+                Lexer lexer = new Lexer(file);
                 var tokens = lexer.Tokenize();
-                //ProcessLineStructure(tokens);
                 ProcessExpression(tokens);
                 VRMemoryDebug.PrintMemory();
-            }
+        }
+        public static void ProcessExpression(List<Token> tokens)
+        {
+            Parser parser = new Parser(tokens);
+            parser.ParserStatment();
         }
         // TO Check the structure of each current line
         /*public static void ProcessLineStructure(List<Token> tokens)  // Better put this in a foreach loop
@@ -79,11 +77,6 @@ namespace CrisalisModel.CrisalisCore.program
 
         }*/
 
-        public static void ProcessExpression(List<Token> tokens)
-        {
-            Parser parser = new Parser(tokens);
-            parser.ParseAssignment();
-        }
     }
 
     internal struct TokenOrder {
